@@ -4,7 +4,7 @@ from store.models import Product
 from django.http import JsonResponse
 # Create your views here.
 
-# Sdasdszdfvdfg
+
 def cart_summary(request):
 
     return render(request,'cart/cart_summary.html',{})
